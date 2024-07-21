@@ -1,0 +1,23 @@
+
+# theme colors
+set $bg-color            #ACEBF2
+set $inactive-bg-color   #324E73
+
+# set window colors
+# class                 border              background         text                 indicator
+client.focused          $bg-color           $bg-color          $white               $bg-color
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $bg-color
+
+
+bar {
+        status_command i3status
+
+colors {
+    background #000000
+    statusline #eff0f1
+    focused_workspace #000000 $bg-color #000000
+    active_workspace #000000 $bg-color #$bg-color
+    inactive_workspace #000000 #666666 #ffffff
+    urgent_workspace #d33682 #d33682 #fdf6e3
+    }
+}
