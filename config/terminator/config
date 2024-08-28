@@ -1,8 +1,9 @@
 [global_config]
+  inactive_color_offset = 0.7092391304347826
 [keybindings]
 [profiles]
   [[default]]
-    background_darkness = 0.9
+    background_darkness = 0.8
     background_type = transparent
     show_titlebar = False
 [layouts]
