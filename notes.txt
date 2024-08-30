@@ -12,3 +12,14 @@ EndSection
 
 #sddm theme
 https://github.com/Keyitdev/sddm-astronaut-theme?tab=readme-ov-file
+
+
+# use this for sddm astronaut theme
+
+libqt6svg6
+
+#sudo add-apt-repository ppa:okirby/qt6-backports
+#sudo apt update
+
+#sudo apt install qt6-base-dev
+#sudo apt install qtcreator

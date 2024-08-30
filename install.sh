@@ -13,6 +13,10 @@ sudo update-alternatives --config x-terminal-emulator
 #rofi
 sudo apt install rofi
 
+#brightness
+sudo apt install brightnessctl
+sudo chmod u+s $(whereis -b brightnessctl | awk '{print $2}')
+
 #background
 sudo apt install feh
 
