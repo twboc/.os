@@ -20,6 +20,13 @@ qt6-5compat-dev
 qt6-declarative-dev
 libqt6svg6
 
+
+#for simple theme
+sudo apt update && sudo apt upgrade 
+sudo apt install qml-module-qtgraphicaleffects
+sudo apt install qml-module-qtquick-controls
+sudo apt install qml-module-qtquick-controls2
+sudo apt install qml-module-qtquick-layouts
 #sudo add-apt-repository ppa:okirby/qt6-backports
 #sudo apt update
 

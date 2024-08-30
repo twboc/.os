@@ -17,6 +17,9 @@ sudo apt install rofi
 sudo apt install brightnessctl
 sudo chmod u+s $(whereis -b brightnessctl | awk '{print $2}')
 
+#screenshot
+sudo apt install gnome-screenshot
+
 #background
 sudo apt install feh
 
