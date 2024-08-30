@@ -1,7 +1,9 @@
-
 #!/bin/bash
 
 sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ulauncher -y && sudo apt update && sudo apt install ulauncher
+
+#curl
+sudo apt install curl
 
 #fzf - fuzzy finder
 sudo apt install fzf
