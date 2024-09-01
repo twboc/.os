@@ -8,6 +8,14 @@ sudo apt install curl
 #fzf - fuzzy finder
 sudo apt install fzf
 
+#zoxide - cd path utility
+curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+
+#bat color cat
+sudo apt install bat
+mkdir -p ~/.local/bin
+ln -s /usr/bin/batcat ~/.local/bin/bat
+
 #terminal - terminator
 sudo apt install terminator
 sudo update-alternatives --config x-terminal-emulator
