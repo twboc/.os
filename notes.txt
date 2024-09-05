@@ -1,5 +1,8 @@
 # other stuff to install
 
+
+
+
 redshift
 lsd
 btop  

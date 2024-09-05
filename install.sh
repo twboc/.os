@@ -36,5 +36,8 @@ sudo apt install feh
 #animated background
 sudo apt install imagemagick
 
+#i3-lock
+sudo apt install i3lock-fancy
+
 #polybar
 sudo apt install polybar
