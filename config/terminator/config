@@ -5,17 +5,20 @@
   zoom_in = <Primary>equal
   zoom_out = <Primary>minus
   zoom_normal = <Primary>BackSpace
-  new_tab = <Primary>t
-  go_next = <Primary>apostrophe
-  go_prev = <Primary>h
-  go_up = <Primary>l
-  go_down = <Primary>k
-  go_left = <Primary>j
-  go_right = <Primary>semicolon
+  new_tab = <Alt>t
+  go_next = apostrophe
+  go_prev = <Alt>h
+  go_up = <Alt>l
+  go_down = <Alt>k
+  go_left = <Alt>j
+  go_right = <Alt>semicolon
+  split_horiz = <Alt>o
+  split_vert = <Alt>e
+  close_term = <Alt>w
   move_tab_right = <Primary>colon
   move_tab_left = <Primary><Shift>j
-  next_tab = <Primary>m
-  prev_tab = <Primary>n
+  next_tab = <Alt>m
+  prev_tab = <Alt>n
   switch_to_tab_1 = <Primary>1
   switch_to_tab_2 = <Primary>2
   switch_to_tab_3 = <Primary>3
@@ -26,6 +29,7 @@
   switch_to_tab_8 = <Primary>8
   switch_to_tab_9 = <Primary>9
   switch_to_tab_10 = <Primary>0
+  layout_launcher = <Primary><Shift>l
 [profiles]
   [[default]]
     background_darkness = 0.8
