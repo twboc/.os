@@ -6,7 +6,7 @@
   zoom_out = <Primary>minus
   zoom_normal = <Primary>BackSpace
   new_tab = <Alt>t
-  go_next = apostrophe
+  go_next = <Alt>apostrophe
   go_prev = <Alt>h
   go_up = <Alt>l
   go_down = <Alt>k
