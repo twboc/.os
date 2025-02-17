@@ -4,6 +4,8 @@ sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ul
 
 #curl
 sudo apt install curl
+#lsd
+sudo apt install lsd
 
 #atuin
 #curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
