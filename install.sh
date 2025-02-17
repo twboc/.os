@@ -5,6 +5,9 @@ sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ul
 #curl
 sudo apt install curl
 
+#atuin
+#curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+
 #fzf - fuzzy finder
 sudo apt install fzf
 
